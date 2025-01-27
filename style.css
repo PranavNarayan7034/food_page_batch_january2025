@@ -136,3 +136,18 @@ nav img{
     display: flex;
     gap: 20px;
 }
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.child img{
+    height: 60px;
+    width: 60px;
+}
+.line{
+    width: 3px;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.304);
+}
