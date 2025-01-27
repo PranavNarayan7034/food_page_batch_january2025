@@ -168,10 +168,30 @@ nav img{
 .card{
     display: flex;
     align-items:center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .item{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
+}
+.card i{
+    font-size: 35px;
+    background-color: orange;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+.item{
+    background-color: grey;
+    width: 75vw;
+    padding: 20px;
+}
+.box{
+    background-color: black;
+}
+.box img{
+    height: 150px;
+    width: 150px;
+    padding: 20px;
 }
