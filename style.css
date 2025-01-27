@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -78,8 +80,10 @@ nav img{
     gap: 20px;
 }
 .one h1{
-    font-size:46px;
+    font-size:42px;
     text-transform: capitalize;
+    font-family: Nunito;
+    font-weight: 800;
 }
 .one h1 span{
     color: red;
@@ -97,4 +101,34 @@ nav img{
 .two .img2{
     position: relative;
     z-index: 2;
+}
+.one p{
+    font-size: 18px;
+    font-family: Roboto slab;
+    color: rgba(255, 255, 255, 0.627);
+}
+.btn1{
+    background-color: orange;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Nunito;
+    text-transform: capitalize;
+    border-radius: 0 25px 25px 25px;
+}
+.btn2{
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.btn2 i{
+    font-size: 40px;
+}
+.button{
+    display: flex;
+    gap: 20px;
 }
